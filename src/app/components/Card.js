@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../page.module.css';
 import Image from 'next/image';
 
-export default function HoverCard({ imageSrc }) {
+export default function Card({ imageSrc }) {
   return (
     <div>
       <div className={styles.content}>

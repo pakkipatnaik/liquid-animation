@@ -1,4 +1,4 @@
-import HoverCard from '../app/components/HoverCard.js';
+import Card from "../app/components/Card.js"
 import styles from './page.module.css'
 import Image1 from "../../public/images/image1.jpeg";
 import Image2 from "../../public/images/image2.jpeg"
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       {images.map((imageSrc, index) => (
-        <HoverCard key={index} imageSrc={imageSrc} />
+        <Card key={index} imageSrc={imageSrc} />
       ))}
     </div>
   );
